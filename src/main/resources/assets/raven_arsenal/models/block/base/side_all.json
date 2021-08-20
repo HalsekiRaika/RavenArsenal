@@ -1,0 +1,11 @@
+{
+    "parent": "raven_weapons:block/base/full_block",
+    "textures": {
+        "up": "#top",
+        "down": "#bottom",
+        "east": "#side",
+        "north": "#side",
+        "south": "#side",
+        "west": "#side"
+    }
+}

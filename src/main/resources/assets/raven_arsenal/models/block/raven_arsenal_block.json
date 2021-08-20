@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "raven_arsenal:block/arsenal_sideface",
+        "up": "raven_arsenal:block/arsenal_top",
+        "down": "raven_arsenal:block/arsenal_bottom",
+        "north": "raven_arsenal:block/arsenal_sideface",
+        "east": "raven_arsenal:block/arsenal_sideface",
+        "south": "raven_arsenal:block/arsenal_sideface",
+        "west": "raven_arsenal:block/arsenal_sideface"
+    }
+}
