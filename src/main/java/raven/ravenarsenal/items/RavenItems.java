@@ -31,7 +31,7 @@ public class RavenItems {
         REGISTERER.register(bus);
     }
 
-    private static Supplier<BlockItem> blockItemSupplier(Supplier<Block> blockSupplier) {
+    private static Supplier<BlockItem> blockItemSupplier(@Nonnull Supplier<Block> blockSupplier) {
         return () -> new BlockItem(blockSupplier.get(), new Item.Properties().group(RAItemGroup.RAVEN_MAIN));
     }
 }

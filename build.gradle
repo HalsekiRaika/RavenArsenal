@@ -18,6 +18,7 @@ repositories {
 
 apply plugin: 'net.minecraftforge.gradle'
 // Only edit below this line, the above code adds and enables the necessary things for Forge to be setup.
+apply plugin: 'maven'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
@@ -117,7 +118,7 @@ sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 dependencies {
     minecraft 'net.minecraftforge:forge:1.16.4-35.1.36'
-
+    compileOnly fg.deobf('mezz.jei:jei-1.16.4:7.6.1.+:api')
     runtimeOnly fg.deobf('mezz.jei:jei-1.16.4:7.6.1.+')
 }
 
